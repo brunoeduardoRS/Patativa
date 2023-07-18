@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.container-login{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+    align-items: center;
+    justify-content: center;
+    width: 334px;
+    margin-top: 25vh;
+    border: 2px solid #E0E0E0;
+    border-radius: 20px;
+    height: 391px;
+} 
+.container-login h2{
+    font-size: 30px;
+    margin: 0;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;    
+}
+.container-login input{
+    outline: none;
+    padding: 2px;
+    width: 14rem;
+    height: 2.5rem;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 1rem;
+    border-color:#E0E0E0 ;
+   line-height: 20px;
+}
+.container-login button{
+    width: 14rem;
+    height: 2.2rem;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn-entrar{
+    background-color: blue;
+}
+.btn-novo{
+    background-color:green;
+    width: 14rem;
+    height: 2.2rem;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.email-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 334px;
+}
+.email-content textarea{
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 12px;
+    border-color:#E0E0E0 ;
+}
+.email-content form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
+}
+.email-content input{
+    outline: none;
+    width: 14rem;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:#E0E0E0 ;
+}
+.email-content label{
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+.message{
+    height: 50px;
+    max-width: 100%;
+    text-align: start;
+
+}
+.send{
+    width: 14rem;
+    height: 2.2rem;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:green;
+    margin-top: 2rem;
+}
+.logout{
+    background-color:blue;
+    width: 14rem;
+    height: 2.2rem;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.subject{
+    width: 14rem;
+    height: 2.2rem;
+    font-size: 12px;
+}
